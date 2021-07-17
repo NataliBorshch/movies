@@ -1,0 +1,21 @@
+@import "../../../styles/color";
+
+.box-nav {
+  margin-right: 10px;
+}
+.nav-link {
+  color: $base-color;
+  font-size: 25px;
+  margin-right: 90px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Crimson";
+}
+
+.activ {
+  color: $accent-color;
+}
+
+.header-icon {
+  margin-right: 150px;
+}

@@ -1,0 +1,43 @@
+@import "../../styles//color";
+
+.poster {
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
+}
+
+.card-title {
+  align-items: center;
+  margin: 0px;
+  padding: 5px 2px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.card-vote {
+  position: absolute;
+  top: -3%;
+  left: 0px;
+  background: $accent-color;
+  color: $base-color;
+  padding: 3px;
+  border-radius: 5px;
+}
+.card-date {
+  position: absolute;
+  margin: 0px;
+  padding: 3px;
+  top: 83.5%;
+  left: 0;
+  background: $accent-color;
+  color: $base-color;
+  border-radius: 5px;
+}

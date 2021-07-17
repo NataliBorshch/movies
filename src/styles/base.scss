@@ -1,0 +1,39 @@
+@import "./color";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+#root {
+  margin: 0;
+  height: 100%;
+}
+body {
+  background: $black-color;
+  color: $base-color;
+  margin: 0;
+  font-family: "Crimson";
+  height: 100%;
+}
+
+header {
+  display: flex;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  background-color: #1e1e1e;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}

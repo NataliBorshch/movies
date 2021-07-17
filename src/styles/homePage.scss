@@ -1,0 +1,73 @@
+@import "./color";
+.home-page {
+  display: flex;
+  margin: 30px 1px;
+
+  background-color: $accent-color;
+  border-radius: 10px;
+}
+.home-box2 {
+  background-color: $accent-color;
+  width: calc(100% / 2);
+  padding: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.home-box1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-slider {
+  display: flex;
+}
+.home-card {
+  width: calc(100% / 2);
+  border: 2px solid red;
+}
+
+.poster {
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
+}
+
+.home-form {
+  display: flex;
+  height: 500px;
+  flex-direction: column;
+  background-image: url("https://ik.imagekit.io/s2fpg15d4rx/pngegg_1_9vqxTdZzO.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  width: calc(100% / 2);
+  justify-content: center;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.home-box-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-btn {
+  background-color: $accent-color;
+  color: $base-color;
+  font-size: 20px;
+  padding: 10px 30px;
+  margin: 15px 15px;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-family: "Crimson";
+  box-shadow: 1px 3px 5px 3px rgba(249, 246, 250, 0.75);
+  &:hover {
+    background-color: $base-color;
+    color: $accent-color;
+    box-shadow: 1px 3px 5px 3px rgba(143, 87, 207, 0.75);
+  }
+}

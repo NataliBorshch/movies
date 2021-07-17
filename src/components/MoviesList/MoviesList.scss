@@ -1,0 +1,11 @@
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  padding: 0px;
+}
+
+.movie-card {
+  margin: 15px;
+  width: calc((100% - 30px * 5) / 5);
+}
